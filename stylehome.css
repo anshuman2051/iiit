@@ -1,0 +1,340 @@
+.body{
+     height:1340px;
+     width:1320px;
+     margin:0px auto;
+     background-color:#FDF5E6;
+     
+ }
+.header{
+     height:171px;
+     max-width:1320px;
+     background-color:brown;
+     
+}
+.middle{
+       max-width:1320px;
+       height:910px;
+       background-color:#FDF5E6;
+}
+.footer{
+       width:1320px;
+       height:259px;
+       background-color:#8B4513;
+}
+
+
+.headertop{
+     height:30px;
+     max-width:100%;
+     background-color:brown;
+      border-bottom:2px solid black; 
+      
+}
+.headermid{
+     height:100px;
+     max-width:100%;
+    background-color:white;
+      
+}
+/* menu and submenu starts here */
+.headerlower ul{
+            margin:0px;
+            padding:0px;
+            list-style:none;
+   }
+
+.headerlower ul li{
+            
+            width:170px;
+            color:white;
+            font-size:19px;
+            height:30px;
+            text-align:center;
+            float:left;
+            position:relative;
+            background-color:brown;
+
+  }
+.headerlower ul li a{
+          text-decoration:none;
+          color:white;
+          display:block;
+          text-decoration:none;
+          padding:8px 8px 8px 8px;
+          vertical-align:middle;
+          z-index: 2;
+   }
+.headerlower ul li ul li{
+                   width:280px;
+                    font-size:16px;
+}
+.headerlower ul ul{
+                  position:absolute;
+                  display:none;
+     
+  }
+.headerlower ul li:hover > ul{
+                 display:block;
+                
+                
+                 color:black;
+                   z-index: 2;
+    }
+.headerlower a:hover{
+                 color:black;
+                 background-color:white;
+   }
+/* menu and submenu ends here */
+
+
+
+img{
+
+    max-height=80px;
+    max-width=80px;
+    float:left;
+}
+.name{
+          
+          color:black;
+          font-size:25px;
+          font-family:helvetica;
+          font-weight:bold;
+         
+         
+          text-shadow:2px 2px 4px red;
+}
+.subname{
+
+     color:black;
+          font-size:16px;
+          
+        text-shadow:2px 2px 2px red;
+}
+.headermid p{
+         display:inline;
+     
+}
+#news{
+     width:1320px;
+     height:40px;
+     background-color:white;
+      
+}
+     #news p{
+           color:black;
+           font-style:italic;
+           font-weight:bold;
+           }
+
+#midtwo{
+     width:1320px;
+     height:440px;
+     
+     overflow:hide;
+ }
+
+
+      #outerbox{
+           width:560px;
+           height:320px;
+           overflow:hidden;
+           background-image:url("index4.png");
+           box-shadow:10px 10px 15px black;
+           position:relative;
+           margin-left:100px;
+           margin-top:30px;
+
+     }
+
+           #sliderbox{
+
+                 position:absolute;
+                 width:2240px;
+               background-color: #1c7430;
+                 animation-name:iiitdm;
+                 animation-duration:20s;
+                 animation-iteration-count:infinite;
+            }
+
+                  #sliderbox img{
+                           float:left;
+                   }
+
+                  @keyframes iiitdm{
+                    0%
+                     {
+                       left:0px;
+                     }
+                   20%
+                    {
+                      left:0px;
+                    }
+                   21%
+                    {
+                      left:-560px;
+                    }
+                   41%
+                    {
+                      left:-560px;
+                    }
+                  42%
+                    {
+                      left:-1120px;
+                    }
+                  62%
+                   {
+                      left:-1120px;
+                   }
+                  63%
+                   {
+                      left:-1680px;
+                   }
+                  83%
+                   {
+                      left:-1680px;
+                   }
+                  84%
+                   {
+                      left:-2240px;
+                   }
+                  100%
+                   {
+                      left:-2240px;
+                   }
+                }
+
+
+
+       #announcement{
+             height:385px;
+             width:490px;
+             background-color:white;
+             float:right;
+             margin-right:50px;
+             margin-top:0px;
+             border-bottom:2px solid black;
+             border-right:2px solid black;
+             box-shadow:10px 10px 15px black;
+        }
+
+
+#midthree{
+         width:1320px;
+         height:380px;
+        
+  
+}
+    #midnews{
+               float:left;
+               width:528px;
+               height:360px;
+               
+               margin-left:50px;
+               margin-top:10px;
+               background-color:white;
+               border-bottom:2px solid black;
+               border-right:2px solid black;
+               box-shadow:10px 10px 15px black;
+    }
+         
+
+    #about{
+             float:right;
+             width:660px;
+             height:360px;
+             background-color:white;
+             margin-right:10px;
+             margin-top:10px;
+             overflow:scroll;
+             
+            
+            
+             
+    }
+           #about p{
+                   padding-left:25px;
+                   padding-right:15px;
+                   color:black;
+            }
+           #kurnool{
+                    width:350px;
+                    height:40px;
+                    padding-top:10px;
+                    padding-left:10px;
+                    background-color:brown;
+                    float:right;
+                    color:white;
+                    font-size:25px;
+                    font-weight:bold;
+                    box-shadow:10px 5px 10px black;
+ 
+           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p{
+      display:inline;
+}
+
+  #fone td{
+     color:white;
+     font-size:15px;
+    }
+
+    #fone{
+        width:1320px;
+        height:210px;
+     
+      }
+    #fone a{
+            color:white;
+            text-decoration:none;
+     }
+    #fone a:hover{
+            color:black;
+            background-color:white;
+     }
+    #ftwo{
+         width:1320px;
+         height:49px;
+         background-color:black;
+         padding-top:8px;
+    }
+
+    #ftwo p{
+       padding-top:;
+       color:yellow;
+       font-weight:bold;
+     }
+        #ftwo a{
+          text-decoration:none;
+          color:white;
+
+      }      
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
